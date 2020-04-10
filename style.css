@@ -132,48 +132,48 @@ body {
 
 
 @media screen and (min-width: 601px) {
-  div.collapse {
+  nav.navbar {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  div.collapse {
+  nav.navbar  {
     font-size: 10px;
   }
 }
 
 
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 30px;
-  }
-}
+/*@media screen and (min-width: 601px) {*/
+/*  div.example {*/
+/*    font-size: 80px;*/
+/*  }*/
+/*}*/
+/**/
+/*@media screen and (max-width: 600px) {*/
+/*  div.example {*/
+/*    font-size: 30px;*/
+/*  }*/
+/*}*/
 
 
 
   
-/**/
-/* @media screen and (max-width: 1245px){*/
-/*     .x-navbar .x-nav > li > a {*/
-/*         font-size: 12px;*/
-/*     }*/
-/* }*/
-/**/
-/* @media screen and (max-width: 1110px){*/
-/*     .x-navbar .x-nav > li > a {*/
-/*         font-size: 11px ;*/
-/*     }*/
-/* }*/
-/**/
-/* @media screen and (max-width: 1045px){*/
-/*     .x-navbar .x-nav > li > a {*/
-/*         font-size: 10px ;*/
-/*     }*/
-/* }*/
+
+ @media screen and (max-width: 1245px){
+     .x-navbar .x-nav > li > a {
+         font-size: 12px;
+     }
+ }
+
+ @media screen and (max-width: 1110px){
+     .x-navbar .x-nav > li > a {
+         font-size: 11px ;
+     }
+ }
+
+ @media screen and (max-width: 1045px){
+     .x-navbar .x-nav > li > a {
+         font-size: 10px ;
+     }
+ }

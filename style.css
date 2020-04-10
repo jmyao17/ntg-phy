@@ -131,17 +131,31 @@ body {
 
 
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 601px) {
   div.collapse {
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
   div.collapse {
     font-size: 10px;
   }
 }
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
 
 
   

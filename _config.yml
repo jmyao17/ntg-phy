@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+
+# basic options
+title: news
+author: jmyao
+email: yao.jiangming@gmail.com
+description: A wonderful site
+github_username:  jmyao17
+
+# Build settings
+markdown: kramdown
+theme: minima

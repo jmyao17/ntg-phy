@@ -104,7 +104,7 @@ html {
 
    /* Style the navigation bar links */
        .navbar a {
-           float: left;
+           float: center;
            display: block;
            color: white;
            text-align: center;

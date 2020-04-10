@@ -108,6 +108,8 @@ body {
         /* Right-aligned section inside the top navigation */
         .topnav-right {
           float: right;
+          color: red;
+          size: 20px;
         }
 
        /* Right-aligned link */

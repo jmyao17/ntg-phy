@@ -26,8 +26,7 @@ html {
 }
 
 .about-section {
-  padding: 50px;
-  text-align: center;
+  padding: 50px; 
   background-color: #474e5d;
   color: white;
 }
@@ -71,19 +70,5 @@ html {
   }
 }
 
-#site-footer {
-  background: gray;
-}
  
-#footer{
-background-color: gray;
-}
-
-#wrap {
-    width:900px;
-    margin:0 auto;
-    /*temporary text styles below*/
-    text-align:center;
-    font-weight:bold;
-    color:#FFF;
-}
+ 

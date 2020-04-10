@@ -4,6 +4,10 @@
   background: #aaa;
 }
 
+section {
+  column-count: 3;
+}
+
 html {
   box-sizing: border-box;
 }

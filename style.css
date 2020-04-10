@@ -95,15 +95,23 @@ body {
 /*       }*/
 
    /* Style the navigation bar links */
-       .navbar a {
-           float: left;
-           color: #f2f2f2;
-           text-align: center;
-           padding: 14px 16px;
-           text-decoration: none;
-           font-size: 17px;
-       }
+/*       .navbar a {*/
+/*           float: left;*/
+/*           color: #f2f2f2;*/
+/*           text-align: center;*/
+/*           padding: 10px 20px;*/
+/*           text-decoration: none;*/
+/*           font-size: 17px;*/
+/*       }*/
 
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
 
 
        /* Right-aligned link */
@@ -131,7 +139,6 @@ body {
         /* Right-aligned section inside the top navigation */
         .topnav-right {
           float: right;
-          paddubg: 10px;
         }
  
 

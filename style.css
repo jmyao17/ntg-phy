@@ -110,7 +110,7 @@ body {
            text-align: center;
            padding: 14px 20px;
            text-decoration: none;
-           font-size: 100%;
+/*           font-size: 200%;*/
        }
 
 
@@ -141,11 +141,11 @@ body {
 /*    visibility: visible;*/
 /*}*/
 
-/*@media screen and (min-width: 600px){*/
-/*    .navbar a {*/
-/*    transform: scale(1.4)*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 600px){
+    .navbar a {
+    transform: scale(1.4)
+    }
+}
  
 @media screen and (max-width: 600px){
 body {

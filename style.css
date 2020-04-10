@@ -80,17 +80,17 @@ html {
 /*}*/
 
 /* max-width * aspect-ratio */
-.full-width {
-  width: 100vw;
-  max-width: 30em;
-  height: calc(100vw * (9/16));
-  max-height: calc(30em * (9/16));
-}
+/*.full-width {*/
+/*  width: 100vw;*/
+/*  max-width: 30em;*/
+/*  height: calc(100vw * (9/16));*/
+/*  max-height: calc(30em * (9/16));*/
+/*}*/
 
-body {
-  font-size: calc(16px + 1vw);
-  line-height: calc(1.1em + 0.5vw);
-}
+/*body {*/
+/*  font-size: calc(16px + 1vw);*/
+/*  line-height: calc(1.1em + 0.5vw);*/
+/*}*/
  
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */

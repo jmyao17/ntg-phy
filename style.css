@@ -3,10 +3,7 @@
   height: 10px;
   background: #aaa;
 }
-
-section {
-  column-count: 2;
-}
+ 
 
 html {
   box-sizing: border-box;

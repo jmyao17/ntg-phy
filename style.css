@@ -5,7 +5,7 @@
 }
 
 section {
-  column-count: 3;
+  column-count: 2;
 }
 
 html {
@@ -80,4 +80,13 @@ html {
  
 #footer{
 background-color: gray:
+}
+
+#wrap {
+    width:900px;
+    margin:0 auto;
+    /*temporary text styles below*/
+    text-align:center;
+    font-weight:bold;
+    color:#FFF;
 }

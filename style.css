@@ -64,7 +64,7 @@ html {
  
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -72,11 +72,16 @@ html {
 }
 
 
+/* max-width * aspect-ratio */
+.full-width {
+  width: 100vw;
+  max-width: 30em;
+  height: calc(100vw * (9/16));
+  max-height: calc(30em * (9/16));
+}
+
 body {
-  // font grows 1px for every 100px of viewport width
-  font-size: calc(16px + 1vw);
-  // leading grows along with font,
-  // with an additional 0.1em + 0.5px per 100px of the viewport
+  font-size: calc(16px + 1vw); 
   line-height: calc(1.1em + 0.5vw);
 }
  

@@ -178,7 +178,8 @@ body {
   cursor: pointer;
   position: absolute;
   top: 40%;
-  width: auto;
+  height: 300;
+  width: 300;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -224,10 +225,10 @@ body {
   clear: both;
 }
 
-/* Six columns side by side */
+/* Three columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 30%;
 }
 
 /* Add a transparency effect for thumnbail images */

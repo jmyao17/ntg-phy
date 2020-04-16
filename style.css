@@ -241,6 +241,7 @@ body {
 }
 
 #pub {
-    size: "6";
+    font-size: 10px;
+    font-style: normal;
     
 }

@@ -7,7 +7,12 @@ mark {
   height: 10px;
   background: #aaa;
 }
- 
+
+td {
+	max-width:50px;
+	width:auto;
+	min-width:10px;
+}
 
 html {
   box-sizing: border-box;
@@ -45,6 +50,8 @@ html {
   clear: both;
   display: table;
 }
+
+.a { table-layout: auto; width: 180px; }
 
 .title {
   color: grey;

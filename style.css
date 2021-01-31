@@ -80,6 +80,9 @@ html {
   }
 }
  
+.active {
+  background-color: #4CAF50;
+}
 
 ul {
    list-style-type: none;

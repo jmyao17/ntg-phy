@@ -1,4 +1,4 @@
-# scu
+# sysu 
 
 ## nuclear theory group
 
